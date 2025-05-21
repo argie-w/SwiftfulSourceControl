@@ -18,7 +18,11 @@ struct HomeView: View {
             Text("Screen 5")
             Text("Screen 6")
         }
+        .onAppear {
+            // send analytics
+        }
     }
+    
 }
 
 #Preview {
