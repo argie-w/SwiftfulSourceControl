@@ -20,10 +20,19 @@ struct ContentView: View {
                             Text("Some new Title!")
                         }
                     }
+                    
+                    
                 }
+                .frame(maxWidth: .infinity, alignment: .center)
+                
+                
             }
+            
             .padding()
-      
+            
+            Button("Click Me!!") {
+                
+            }
         }
     }
 }
