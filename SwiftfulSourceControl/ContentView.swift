@@ -22,7 +22,7 @@ struct ContentView: View {
         Button("Subscribe Now!!") {
             
         }
-        Button("Tap me") {
+        Button("Swiftful Source Control") {
             
         }
         .padding()
