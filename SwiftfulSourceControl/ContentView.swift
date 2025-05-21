@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("Hello there how are you?!")
         }
         
-        Button("Subscribe") {
+        Button("Subscribe Now!") {
             
         }
         Button("Tap me") {
