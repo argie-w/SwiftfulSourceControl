@@ -16,7 +16,7 @@ struct HomeView: View {
         VStack {
             Text("Screen 3")
             Text("Screen 5")
-            Text("Screen 5")
+            Text("Screen 6")
         }
     }
 }
