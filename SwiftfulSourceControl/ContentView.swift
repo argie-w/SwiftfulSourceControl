@@ -19,7 +19,7 @@ struct ContentView: View {
         Button("Subscribe!") {
             
         }
-        Button("Subscribe Now!!") {
+        Button("Subscribe Now!") {
             
         }
         Button("Swiftful Source Control") {
