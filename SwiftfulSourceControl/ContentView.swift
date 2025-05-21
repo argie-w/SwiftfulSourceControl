@@ -13,11 +13,17 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<20) { _ in
-                    Text("You have \(Int.random(in: 0..<100)) new messages")
+                        VStack {
+                            Image(systemName: "globe")
+                                .font(.largeTitle)
+                                .foregroundStyle(.tint)
+                            Text("Some new Title!")
+                        }
                     }
                 }
             }
             .padding()
+      
         }
     }
 }
