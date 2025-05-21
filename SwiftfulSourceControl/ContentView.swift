@@ -10,25 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
-                .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Text("Hello there how are you?!")
+            ScrollView {
+                VStack {
+                    ForEach(0..<20) { _ in
+                    Text("You have \(Int.random(in: 0..<100)) new messages")
+                    }
+                }
+            }
+            .padding()
         }
-        
-        Button("Subscribe!") {
-            
-        }
-        Button("Subscribe Now!") {
-            
-        }
-        Button("Swiftful Source Control") {
-            
-        }
-        .padding()
-        .background(Color.red)
-        
-        Rectangle()
     }
 }
 
